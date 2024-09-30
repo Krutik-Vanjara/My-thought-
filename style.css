@@ -1,49 +1,54 @@
 body {
     font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #1e90ff;
-    color: white;
-    padding: 10px 0;
     text-align: center;
+    padding: 20px 0;
 }
 
 header h1 {
+    font-size: 2em;
     margin: 0;
-}
-
-header p {
-    margin: 5px;
+    color: #000;
 }
 
 section {
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
-    background-color: white;
-    border-radius: 5px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
 section h2 {
-    color: #1e90ff;  /* Dark sky blue color */
+    font-size: 1.8em;
+    color: #1e90ff; /* Dark sky blue color */
 }
 
 h3 {
+    font-size: 1.4em;
+    color: #000;
+}
+
+p {
+    font-size: 1em;
     color: #333;
 }
 
 footer {
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
-    background-color: white;
-    border-radius: 5px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
 footer h2 {
+    font-size: 1.8em;
     color: #1e90ff; /* Dark sky blue color */
 }
 
@@ -53,5 +58,8 @@ footer ul {
 }
 
 footer ul li {
+    font-size: 1em;
+    color: #333;
     margin-bottom: 10px;
 }
+
